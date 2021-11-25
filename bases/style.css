@@ -1,0 +1,118 @@
+body{
+    margin: 0;
+    background: rgb(255,255,255);
+background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(201,255,189,1) 100%);
+    height: 100vh;
+    
+   
+}
+.menuSup{
+    
+    display: flex;
+    justify-content: space-around;
+   
+    
+}
+.menuSup a{
+    text-decoration: none;
+    color: #333;
+    text-align: center;
+    margin-top: 7px;
+}
+.menuSup img{
+    cursor: text;
+}
+.logoMarca{
+    position: absolute;
+
+}
+
+.logoMarca{
+z-index: 9;
+}
+
+.logoMarca .verde img{
+    position: absolute;
+width: 491px;
+height: 492px;
+left: 505px;
+top: 200px;
+
+background: #7aff2d;
+border-radius: 38px;
+box-shadow:
+  2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
+  6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
+  12.5px 12.5px 10px rgba(0, 0, 0, 0.035),
+  22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),
+  41.8px 41.8px 33.4px rgba(0, 0, 0, 0.05),
+  100px 100px 80px rgba(0, 0, 0, 0.07)
+;
+}
+
+.logoMarca .planta{
+    position: absolute;
+
+left: 593px;
+top: 100px;
+
+background: url(.png);
+}
+
+.logoMarca .planta img{
+    width: 350px;
+height: 450px;
+}
+
+.cv{
+    position: absolute;
+}
+
+.cv img{
+    position: absolute;
+width: 980px;
+height: 120px;
+left: 260px;
+top: 30px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 300;
+font-size: 144px;
+line-height: 169px;
+
+    
+}
+
+.compre img{
+    position: absolute;
+width: 200px;
+height: 70px;
+left: 200px;
+top: 476px;
+
+font-family: Open Sans Condensed;
+font-style: normal;
+font-weight: 300;
+font-size: 96px;
+line-height: 131px;
+
+color: #776965;
+}
+
+.viva img{
+    position: absolute;
+    width: 100px;
+    height: 60px;
+left: 1130px;
+top: 476px;
+
+font-family: Open Sans Condensed;
+font-style: normal;
+font-weight: 300;
+font-size: 96px;
+line-height: 131px;
+
+color: #776965;
+}
+
