@@ -27,7 +27,7 @@ function App() {
     <div className='grid-container'>
             <header className='row'>
                 <div>
-                    <Link className='brand' to='/'>KDRF</Link>
+                    <Link className='brand' to='/'>Cuidado Verde</Link>
                 </div>
                 <div>
                     <Link to="/cart">Carrinho

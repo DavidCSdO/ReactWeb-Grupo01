@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from 'react-redux';
-import { Link } from "react-router-dom";
 import { detailsProducts } from "../../actions/productActions";
 import LoadingBox from "../../components/LoadingBox";
 import MessageBox from "../../components/MessageBox";
 import Rating from "../../components/Rating";
+import './index.css';
 
 
 
@@ -28,8 +28,8 @@ export default function ProductScreen(props){
         {
           loading? ( <LoadingBox></LoadingBox>) :error? (<MessageBox variant="danger">{error}</MessageBox>) :
           (
-          <div>
-            <Link to='/'>Voltar para Home</Link>
+          <div className="i">
+            
             <div className='row top'>
                 <div className='col-2'>
                     <img className='large' src={product.imagem} alt={product.name}></img>
@@ -43,10 +43,10 @@ export default function ProductScreen(props){
                         <li>
                             <Rating rating={product.rating} numReviews={product.numReviews}></Rating>
                         </li>
-                        <li>
+                        <li className="pr">
                             Preço : R${product.price}
                         </li>
-                        <li>
+                        <li className="ds">
                             <p>Descrição: {product.description}</p>
                         </li>
                     </ul>

@@ -7,7 +7,6 @@ import LoadingBox from '../../components/LoadingBox'
 import { useDispatch, useSelector } from "react-redux";
 import { listProducts } from "../../actions/productActions";
 import './home.css';
-import MainPage from "../../components/MainPage";
 
 
 
@@ -22,8 +21,8 @@ export default function HomeScreen(){
         dispatch(listProducts());
     }, [dispatch])
     return(
-<>
-      <MainPage/>
+
+     
 
       <div>
         
@@ -39,6 +38,6 @@ export default function HomeScreen(){
           )}         
       </div>
 
-      </>
+      
     )
 }
